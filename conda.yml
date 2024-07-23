@@ -1,0 +1,36 @@
+name: nlp-project
+channels:
+- conda-forge
+dependencies:
+- python=3.10
+- jupyter
+- conda
+- mamba
+- ipython
+- ipykernel
+- numpy
+- matplotlib
+- scipy
+- pandas
+- python-dotenv
+- pip
+- pre-commit
+- black
+- nbstripout
+- mypy
+- flake8
+- pycodestyle
+- pydocstyle
+- pytest
+- pytest-cov
+- pytest-xdist
+- pip:
+  - mkdocs
+  - mkdocs-material
+  - mkdocstrings
+  - mknotebooks
+  - pyautogen[gemini]==0.2.25
+  - chess==1.10.0
+  - yfinance
+  - datasets
+  - codegeex

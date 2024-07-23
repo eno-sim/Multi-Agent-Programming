@@ -1,0 +1,14 @@
+# Personal
+dlio*
+other
+dataset
+
+# Standard
+.DS_Store
+.env
+.cache
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+__pycache__/
+.vscode/
